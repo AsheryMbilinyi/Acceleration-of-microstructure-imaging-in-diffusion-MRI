@@ -5,14 +5,14 @@ Check /utils/data_utils.py for the defined functions for data formatting process
 Usage:
 1. To generate voxel-wise training dataset for the first N volumes of a full dataset or from a scheme file:
     
-    python FormatData.py --path $DataDir --subjects S1 --nDWI N --fc1d_train 
+    python format_data.py --path $DataDir --subjects S1 --nDWI N --fc1d_train 
   
-    python FormatData.py --path $DataDir --subjects S1 --scheme scheme1 --fc1d_train 
+    python format_data.py --path $DataDir --subjects S1 --scheme scheme1 --fc1d_train 
 
 2. For testing dataset, there is no need to reshape the input data to 1-D voxel by voxel.
     Instead, testing on image space could accelerate the computation.
     
-    python FormatData.py --path $DataDir --subjects S2 S3 --scheme scheme1 --test 
+    python format_data.py --path $DataDir --subjects S2 S3 --scheme scheme1 --test 
 
       (add --Nolabel option if the testing dataset doesn't contain labels)
 

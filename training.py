@@ -1,6 +1,6 @@
 """
 Main script for network training and testing
-Definition of the command-line arguments are in model.py and can be displayed by `python Training.py -h`
+Definition of the command-line arguments are in model.py and can be displayed by `python training.py -h`
 
 """
 

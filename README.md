@@ -2,7 +2,7 @@
 
 This repository contains the code for training a neural network model that reconstruct diffusion tensor imaging (DTI) from highly accelerated scans. Based on insipiration from the following paper:
 
-[Highly accelerated, model-free diffusion tensor MRI reconstrucion using neural networks](https://aapm.onlinelibrary.wiley.com/doi/full/10.1002/mp.13400?af=R), we reconstructed Fractional Anisotropy (FA) and Mean Diffusivity (MD) maps from two subjects in [multi-shell diffusion MRI dataset](https://www.nature.com/articles/s41597-020-0493-8?sf234363855=1).
+[Highly accelerated, model-free diffusion tensor MRI reconstrucion using neural networks](https://aapm.onlinelibrary.wiley.com/doi/full/10.1002/mp.13400?af=R), we reconstructed Fractional Anisotropy (FA) and Mean Diffusivity (MD) maps of two subjects from [multi-shell diffusion MRI dataset](https://www.nature.com/articles/s41597-020-0493-8?sf234363855=1).
 
 ## Usage
 

@@ -32,5 +32,6 @@ This repository contains the code for training a neural network model that recon
         python testing.py --test_subject S2 --DWI 10 --model fc1d
         
 ## Sample results
+![alt text](https://github.com/AsheryMbilinyi/Acceleration-of-microstructure-imaging-in-diffusion-MRI/blob/main/results.jpg)
         
 
